@@ -5,6 +5,7 @@ from telebot.types import Voice
 from gtts import gTTS
 import tempfile
 import requests
+from openai import OpenAI
 
 # Инициализация клиента OpenAI
 client = OpenAI(
