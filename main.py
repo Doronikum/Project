@@ -4,7 +4,7 @@ import gtts
 import os
 
 # Укажите ваш API-ключ Telegram
-TOKEN = "8130551967:AAFyrQevh1rlF368oXC6Zl9cOTC6oHqbUMk"
+TOKEN = "X"
 
 # Инициализация клиента OpenAI
 client = OpenAI(
