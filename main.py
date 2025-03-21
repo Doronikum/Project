@@ -12,7 +12,7 @@ client = OpenAI(
     base_url="https://api.proxyapi.ru/openai/v1"
 )
 
-bot = telebot.TeleBot('8130551967:AAFyrQevh1rlF368oXC6Zl9cOTC6oHqbUMk')
+bot = telebot.TeleBot(TOKEN)
 
 
 @bot.message_handler(commands=['start'])
